@@ -1,0 +1,124 @@
+@media(max-width:1400px){
+    .header__top{
+        height: 90px;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 30px;
+        position: relative;
+    }
+    .header__top:hover{
+        height: 90px;
+        width: 100%;
+    }
+    .header__link{
+        flex-direction: row;
+    }
+    .header__link-block{
+        margin-bottom: 0;
+    }
+    .header__link-icon{
+        margin-right: 15px;
+    }
+    .header__link-text{
+        margin-right: 15px;
+    }
+    .intro{
+        margin-top: 20px;
+    }
+}
+@media(max-width:1200px){
+    .section__middle-inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section__middle-block{
+        width: var(--col-4);
+    }
+}
+@media(max-width:992px){
+    .section__footer-inner{
+        flex-direction: column;
+    }
+}
+@media(max-width:800px){
+    .header__link-icon{
+        display: none;
+    }
+    .header__link-text{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .intro__title{
+        font-size: 35px;
+    }
+}
+@media(max-width:764px){
+    .section__middle-block{
+        width: var(--col-9);
+    }
+}
+@media(max-width:612px){
+    .header__top{
+        flex-direction: row-reverse;
+    }
+    .header__logo{
+        display: none;
+    }
+    .footer__inner{
+        padding: 20px 0;
+    }
+    .footer__inner-title{
+        font-size: 35px;
+    }
+    .footer__inner-info-number{
+        font-size: 12px;
+    }
+    .footer__inner-info-web{
+        font-size: 10px;
+    }
+    
+}
+@media(max-width:564px){
+    .header__top{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .intro__title{
+        font-size: 25px;
+        width: 200px;
+        line-height: 30px;
+    }
+    .intro__text{
+        font-size: 12px;
+    }
+    .intro__link{
+        font-size: 12px;
+        width: 100px;
+        padding: 2px;
+    }
+}
+@media(max-width:510px){
+    .section__middle-block{
+        width: var(--col-9);
+    }
+}
+@media(max-width:468px){
+    .section-top{
+        width: var(--col-8);
+    }
+    .intro__text{
+        width: var(--col-8);
+    }
+}
+@media(max-width:424px){
+    .footer__inner-title{
+        font-size: 25px;
+    }
+    .footer__inner-info-number{
+        font-size: 10px;
+    }
+    .footer__inner-info-web{
+        font-size: 8px;
+    }
+}
